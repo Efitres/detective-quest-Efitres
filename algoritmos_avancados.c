@@ -9,14 +9,21 @@
                   // A árvore é montada de modo automático em alocação dinâmica, e o jogador poderá explorar esse mapa até chegar
                   // a um cômodo que não tenha mais caminhos.
 
-// (NIVEL AVENTUREIRO) - implementar o sistema de pistas coletadas durante a exploração da mansão. Para isso, ampliará o sistema
+// (NIVEL AVENTUREIRO) - Implementar o sistema de pistas coletadas durante a exploração da mansão. Para isso, ampliará o sistema
                       // anterior de árvore binária adicionando:
                       // Pistas associadas a cada cômodo da mansão.
                       // Uma árvore BST para armazenar e organizar as pistas conforme forem encontradas.
                       // O objetivo do programa é permitir que o detetive explore a mansão, colete pistas espalhadas pelos cômodos
                       // e visualize ao final todos os indícios organizados de acordo com o alfabeto.
 
-// (NIVEL MESTRE) - 
+// (NIVEL MESTRE) - Upgrade final: permitir que o jogador colecione pistas, relacione-as a suspeitos e tome uma decisão lógica
+                 // sobre quem é o culpado.
+                 // Sua missão como desenvolvedor(a) técnico(a) é programar o sistema completo que:
+                 // Permite explorar uma mansão representada como uma árvore binária.
+                 // Armazena as pistas encontradas em uma árvore binária de busca. 
+                 // Associa cada pista a um suspeito usando uma tabela hash.
+                 // Ao final da exploração, o jogador deve indicar quem é o culpado, e o sistema avaliará, de maneira automática,
+                 // se há pistas suficientes para sustentar a acusação.
 
 #include <stdio.h>
 #include <stdlib.h>
